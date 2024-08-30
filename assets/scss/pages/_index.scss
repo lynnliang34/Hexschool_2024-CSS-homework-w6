@@ -43,6 +43,8 @@
   cursor: pointer;
 }
 
+// 精選文章
+
 .swiper-slide {
   border-bottom: 1px solid #6c757d;
 }
@@ -81,4 +83,43 @@
 .swiper-next:hover {
   background-color: #6c757d;
   color: #dee2e6;
+}
+
+// 活動折扣
+
+.decoration {
+  &::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 217px;
+    height: 76px;
+    background: url(/assets/images/bg-1.png);
+  }
+
+  &::after {
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 300px;
+    height: 191px;
+    background: url(/assets/images/bg-2.png);
+  }
+
+  @include pad {
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      right: 0;
+      width: 115px;
+      height: 99px;
+      background: url(/assets/images/bg-2-sm.png);
+    }
+  }
 }
