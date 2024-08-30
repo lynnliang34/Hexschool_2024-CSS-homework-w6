@@ -15,10 +15,6 @@
 
 // 熱門主題
 
-.theme-card-relative {
-  position: relative;
-}
-
 .theme-card {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -125,3 +121,20 @@
 }
 
 // 大家都在看
+// 馬上訂閱
+.label {
+  height: 36px;
+  width: 117px;
+  color: #406c55;
+  border: 1px solid #e0efde;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 74.5px;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+// .prject-card {
+//   max-width: 306px;
+//   height: auto;
+// }

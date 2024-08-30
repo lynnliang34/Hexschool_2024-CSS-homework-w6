@@ -34,3 +34,8 @@ const swiper2 = new Swiper(".swiper-sm", {
     type: "fraction",
   },
 });
+
+const swiper3 = new Swiper(".swiper-project", {
+  slidesPerView: 1.2,
+  spaceBetween: 24,
+});
