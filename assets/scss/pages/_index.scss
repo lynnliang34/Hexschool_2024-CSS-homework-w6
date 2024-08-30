@@ -1,3 +1,14 @@
-.index-title {
-  font-size: 100px;
+.banner {
+  background-image: url("../assets/images/banner.png");
+  background-position: center center;
+  background-size: cover;
+  height: 621px;
+
+  @include pad {
+    background-image: url("../assets/images/banner-sm.png");
+  }
+
+  @include mobile {
+    height: 551px;
+  }
 }

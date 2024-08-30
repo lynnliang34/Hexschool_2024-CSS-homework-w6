@@ -9,59 +9,19 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit,
-          iusto odio assumenda alias id nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              關閉
-            </button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+    <!-- banner -->
+    <div class="container my-lg-20">
+      <div class="banner text-white">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end align-items-lg-start justify-content-lg-center h-100 ms-lg-15"
+        >
+          <h2 class="fs-6 fs-lg-5 mb-2 mb-lg-3">獻給新世代的生活風格誌</h2>
+          <h1 class="fs-3 fs-lg-1 mb-5 mb-lg-6">一起探索生活的無限可能</h1>
+          <button
+            class="btn btn-accent-200 text-white fs-5 px-lg-6 py-lg-4 align-self-lg-start mb-12 mb-lg-0"
+          >
+            馬上訂閱 →
+          </button>
         </div>
       </div>
     </div>

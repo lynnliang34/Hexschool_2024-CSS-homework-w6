@@ -24,3 +24,15 @@ h6 {
 p {
   letter-spacing: 0.05em;
 }
+
+@mixin pad {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
