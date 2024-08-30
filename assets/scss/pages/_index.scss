@@ -1,11 +1,11 @@
 .banner {
-  background-image: url("../assets/images/banner.png");
+  background-image: url("/assets/images/banner.png");
   background-position: center center;
   background-size: cover;
   height: 621px;
 
   @include pad {
-    background-image: url("../assets/images/banner-sm.png");
+    background-image: url("/assets/images/banner-sm.png");
   }
 
   @include mobile {
