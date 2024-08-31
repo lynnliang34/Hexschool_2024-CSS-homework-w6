@@ -9,9 +9,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <title>index</title>
-    <script type="module" crossorigin src="/Hexschool_2024-CSS-homework-w6/assets/main-1e4ac992.js"></script>
-    <link rel="stylesheet" href="/Hexschool_2024-CSS-homework-w6/assets/main-e22eff6f.css">
+    <title>Vivre</title>
+    <script type="module" crossorigin src="/Hexschool_2024-CSS-homework-w6/assets/main-3bd615df.js"></script>
+    <link rel="stylesheet" href="/Hexschool_2024-CSS-homework-w6/assets/main-2d72dd6f.css">
   </head>
   <body>
     <div class="container">
@@ -59,10 +59,10 @@
             <a class="nav-link" href="#">訂閱方案</a>
           </li>
           <li class="nav-item p-3 px-xl-6 py-xl-2 me-5">
-            <a class="nav-link" href="#">關於我們</a>
+            <a class="nav-link" href="about.html">關於我們</a>
           </li>
           <li class="nav-item mt-10 mt-lg-0">
-            <button class="btn btn-accent-200 text-white px-6 py-4">
+            <button class="btn btn-accent-200 text-white px-6 py-4 w-100">
               登入 / 註冊
             </button>
           </li>
@@ -74,22 +74,40 @@
 </div>
 
     <!-- banner -->
-    <div class="container my-lg-20">
-      <div class="banner text-white">
-        <div
-          class="d-flex flex-column align-items-center justify-content-end align-items-lg-start justify-content-lg-center h-100 ms-lg-15"
-        >
-          <h2 class="fs-6 fs-lg-5 mb-2 mb-lg-3">獻給新世代的生活風格誌</h2>
-          <h1 class="fs-3 fs-lg-1 mb-5 mb-lg-6">一起探索生活的無限可能</h1>
-          <button
-            class="btn btn-accent-200 text-white fs-lg-5 px-lg-6 py-lg-4 align-self-lg-start mb-12 mb-lg-0"
+    <!-- 平板以上 -->
+    <div class="d-none d-lg-block">
+      <div class="container my-lg-20">
+        <div class="banner text-white">
+          <div
+            class="d-flex flex-column align-items-center justify-content-end align-items-lg-start justify-content-lg-center h-100 ms-lg-15"
           >
-            馬上訂閱 →
-          </button>
+            <h2 class="fs-6 fs-lg-5 mb-2 mb-lg-3">獻給新世代的生活風格誌</h2>
+            <h1 class="fs-3 fs-lg-1 mb-5 mb-lg-6">一起探索生活的無限可能</h1>
+            <button
+              class="btn btn-accent-200 text-white fs-lg-5 px-lg-6 py-lg-4 align-self-lg-start mb-12 mb-lg-0"
+            >
+              馬上訂閱 →
+            </button>
+          </div>
         </div>
       </div>
     </div>
-
+    <!-- 手機版 -->
+    <div class="d-lg-none">
+      <div class="banner text-white">
+        <div class="container" style="height: 551px">
+          <div
+            class="d-flex flex-column align-items-center justify-content-end h-100"
+          >
+            <h2 class="fs-6 mb-2">獻給新世代的生活風格誌</h2>
+            <h1 class="fs-3 mb-5">一起探索生活的無限可能</h1>
+            <button class="btn btn-accent-200 text-white mb-12">
+              馬上訂閱 →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- 熱門主題 -->
     <div class="container py-12 py-lg-20">
       <h2 class="mb-6 fs-4 fs-lg-2">熱門主題</h2>
