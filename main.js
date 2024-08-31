@@ -62,7 +62,18 @@ const swiper3 = new Swiper(".swiper-life", {
   },
 });
 
-const swiper4 = new Swiper(".swiper-project", {
+const swiper4 = new Swiper(".swiper-board", {
+  slidesPerView: 1.2,
+  spaceBetween: 24,
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+  },
+});
+
+const swiper5 = new Swiper(".swiper-project", {
   slidesPerView: 1.2,
   spaceBetween: 24,
 
