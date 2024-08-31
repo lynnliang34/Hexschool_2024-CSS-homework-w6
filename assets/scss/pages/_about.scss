@@ -1,0 +1,37 @@
+.banner-about {
+  background-image: url("/assets/images/about-banner.png");
+  background-position: center center;
+  background-size: cover;
+  height: 454px;
+
+  @include pad {
+    background-image: url("/assets/images/about-banner-sm.png");
+  }
+
+  @include mobile {
+    height: 240px;
+  }
+}
+
+.year {
+  width: 91px;
+  height: 53px;
+  padding: 12px;
+  font-size: 24px;
+  background-color: $primary-400;
+  color: $neutral-100;
+  text-align: center;
+
+  @include pad {
+    width: 65px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+.w-15 {
+  width: 15%;
+}
+.w-85 {
+  width: 85%;
+}
