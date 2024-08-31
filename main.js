@@ -24,10 +24,17 @@ const swiper2 = new Swiper(".swiper-sm", {
   slidesPerGroup: 1,
   spaceBetween: 24,
 
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+  },
+
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-next",
-    prevEl: ".swiper-prev",
+    nextEl: ".swiper-next-sm",
+    prevEl: ".swiper-prev-sm",
   },
   pagination: {
     el: ".swiper-pagination-custom-sm",
@@ -35,7 +42,34 @@ const swiper2 = new Swiper(".swiper-sm", {
   },
 });
 
-const swiper3 = new Swiper(".swiper-project", {
+const swiper3 = new Swiper(".swiper-life", {
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 24,
+  navigation: {
+    nextEl: ".swiper-next-life",
+    prevEl: ".swiper-prev-life",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    992: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+  },
+});
+
+const swiper4 = new Swiper(".swiper-project", {
   slidesPerView: 1.2,
   spaceBetween: 24,
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+  },
 });
